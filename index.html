@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Skincare shop layout with animations</title>
+    <meta name="description" content="Skincare shop layout with GSAP animations">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <div class="nav-closed">
+          <h3>OrganicBee</h3>
+          <ul class="nav-links">
+            <li class="nav-btn link">Shop</li>
+            <li class="link">Blog</li>
+            <li class="link">Contact</li>
+          </ul>
+        </div>
+        <div class="nav-opened">
+          <div class="products">
+            <h2>Products</h2>
+            <ul>
+              <li><a class="link" href="#">Creams</a></li>
+              <li><a class="link" href="#">Sprays</a></li>
+              <li><a class="link" href="#">Soaps</a></li>
+              <li><a class="link" href="#">Tonics</a></li>
+              <li><a class="link" href="#">Brushes</a></li>
+              <li><a class="link" href="#">Make-up</a></li>
+            </ul>
+          </div>
+          <div class="nav-images">
+            <img src="./src/images/PevoniaCoUk_1.png" title="Photo of Pevonia products | pevonia.co.uk"/>
+            <img src="./src/images/PevoniaCoUk_2.png" title="Photo of Pevonia products | pevonia.co.uk"/>
+          </div>
+        </div>
+      </nav>
+      <div class="cover" alt="Picture of a smiling black woman. She wears a crown of flowers on her head and wears no make-up."></div>
+    </header>
+
+
+    <!-- Background image: Photo by Autumn Goodman on Unsplash | https://unsplash.com/photos/vTL_qy03D1I -->
+    <!-- Product pictures: Photos of Pevonia products (it's a real brand, go check them out!) | https://www.pevonia.co.uk/ -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
+    <script src="./src/app.js" async defer></script>
+  </body>
+</html>
